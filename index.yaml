@@ -853,6 +853,22 @@ entries:
     - https://github.com/openkruise/charts/releases/download/kruise-game-0.1.0/kruise-game-0.1.0.tgz
     version: 0.1.0
   kruise-rollout:
+  - apiVersion: v1
+    appVersion: 0.6.0-rc.3
+    created: "2024-08-28T03:14:53.600371758Z"
+    description: Helm chart for kruise-rollout components
+    digest: b1e72bffbbd80fc66b16b06bc8b610364dff4a72dfab9a1ad90c787863a6440e
+    home: https://openkruise.io
+    icon: https://openkruise.io/img/openkruise-logo-bg.jpg
+    keywords:
+    - rollout
+    kubeVersion: '>= 1.19.0-0'
+    name: kruise-rollout
+    sources:
+    - https://github.com/openkruise/rollouts
+    urls:
+    - https://github.com/Shouqianba-FT/openkruise-charts/releases/download/kruise-rollout-0.6.0-rc.3/kruise-rollout-0.6.0-rc.3.tgz
+    version: 0.6.0-rc.3
   - annotations:
       artifacthub.io/changes: |
         - [Added] Support for Blue-Green strategy.
@@ -1080,4 +1096,4 @@ entries:
     urls:
     - https://github.com/openkruise/charts/releases/download/kruise-state-metrics-0.1.0/kruise-state-metrics-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-27T07:36:48.763360936Z"
+generated: "2024-08-28T03:14:53.600595536Z"
